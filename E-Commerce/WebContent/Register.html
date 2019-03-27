@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body bgcolor="powderblue">
+<h1 align="center">Welcome to Registration page</h1>
+<form action="RegServlet">
+	<table border="0" cellpadding="10" cellspacing="1" align="center">
+	<tr><td>First Name </td><td><input type="text" name="fname" required></td></tr>
+	<tr><td>Last Name  </td><td><input type="text" name="lname" required></td></tr>
+	<tr><td>User Name  </td><td><input type="text" name="uname" required></td></tr>
+	<tr><td>Password</td><td><input type="Password" name="pass" required></td></tr>
+	<tr><td>Confirm Password</td><td><input type="password" name="cpass" required></td></tr>
+	<tr><td>Gender</td>
+		<td><input type="radio" name="sex" value="Male">Male
+		<input type="radio" name="sex" value="Female">Female</td></tr>
+	<tr><td>Email Id</td><td><input type="email" name="email" required></td></tr>
+	<tr><td>Phone No</td><td><input type="text" name="number" required></td></tr>
+	
+	<tr><td>Hobbies</td>
+	<td><select name="hobbies" placeholder="select">
+	
+	<option name="music">Music</option>
+	<option name="cricket">Cricket</option>
+	<option name="novel">Novel Reading</option>
+		</select></td></tr>
+	<tr><td><input type="submit" name="" value="Submit"></td><td><button type="reset" value="Reset">Reset</button></td></tr>
+	</table>
+</form>
+</body>
+</html>
